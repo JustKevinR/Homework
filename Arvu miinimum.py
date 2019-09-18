@@ -1,9 +1,6 @@
-a = input("Sisesta esimene arv: ")
-b = input("Sisesta teine arv: ")
-a = a > b
-if a >10:
-    print("a on tõene")
-    print("True")
+number = int(input("Esimene number: "))
+number2 = int(input("Teine number: "))
+if number > number2:
+   print("Teine number on miinimum ")
 else:
-    print("a on väär")
-    print("False")
+   print("Esimene number on miinimum ")
