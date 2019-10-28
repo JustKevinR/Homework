@@ -1,0 +1,12 @@
+import random
+random = random.sample(range(100), 10)
+list = []
+
+a = (random[0])
+b = ( random[-1])
+
+list.append(a)
+list.append(b)
+
+print ("List" , random)
+print ("Esimene ja viimane number", list)
