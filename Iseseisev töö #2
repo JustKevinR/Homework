@@ -1,0 +1,11 @@
+import random
+pc_list = random.sample(range(100), 10)
+print (pc_list)
+#find max 
+max1 = max(pc_list)
+#remove  max1
+pc_list.remove(max1)
+#find  max2
+max2 = max(pc_list)
+#print max2
+print (max2)
