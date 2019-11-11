@@ -1,9 +1,12 @@
 n = int(input("Sisend: "))
-
+list = []
 k = 0
 
-while k < n:
-	print (k*k)
+while k < n: 
+	a = (k*k)
 	k += 1
+	list.append(a)
 	if k > n:
 		break
+		
+print (', '.join(map(str, list)))
