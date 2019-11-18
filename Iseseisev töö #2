@@ -4,7 +4,7 @@ print (pc_list)
 
 
 duplicated = []
-seen = set()
+list = set()
 
 for elem in pc_list:
     if elem in seen:
@@ -13,6 +13,6 @@ for elem in pc_list:
         seen.add(elem)
 
 max1 = max(seen)
-seen.remove(max1)
+list.remove(max1)
 max2 = max(seen)
 print (max2)
