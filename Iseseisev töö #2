@@ -14,5 +14,5 @@ for elem in pc_list:
 
 max1 = max(seen)
 list.remove(max1)
-max2 = max(seen)
+max2 = max(list)
 print (max2)
