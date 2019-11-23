@@ -1,0 +1,6 @@
+res = {} 
+test_str = ("")
+a = sorted(test_str.lower())
+for keys in a: 
+    res[keys] = res.get(keys, 0) + 1
+print (res)
